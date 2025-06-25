@@ -1,0 +1,21 @@
+{
+  "name": "js-api-assessment",
+  "version": "1.0.0",
+  "description": "A JavaScript API assessment project with endpoints for devices, telemetry data, and logs.",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "tsx watch src/index.ts"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "tsx": "^4.20.3"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.0.3",
+    "typescript": "^5.8.3"
+  },
+  "author": "",
+  "license": "ISC"
+}
